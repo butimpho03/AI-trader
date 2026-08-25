@@ -1,0 +1,11 @@
+streamlit>=1.38
+pydantic>=2.9
+python-dotenv>=1.0
+
+# Phase 5: chart quality checking (resolution, cropping, blur estimate).
+# Deterministic, offline image processing — not AI, no external calls.
+Pillow>=10.0
+numpy>=1.26
+
+# Phase 6: calling the Gemini free-tier API over HTTPS.
+requests>=2.31
